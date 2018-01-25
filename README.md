@@ -19,7 +19,7 @@ To install cmail, simply,
 $ pip install bshare
 ```
 
-**Note:** You may need to allow less secure apps on your Gmail account to send email using **bshare**. You can toggle the settings here: [Less secure apps](https://myaccount.google.com/lesssecureapps)
+**Note:** You may need to allow less secure apps on your Gmail account to send email using **cmail**. You can toggle the settings here: [Less secure apps](https://myaccount.google.com/lesssecureapps)
 
 ## Usage
 
