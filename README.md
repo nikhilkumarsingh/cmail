@@ -5,6 +5,9 @@
 
 A simple command-line email client!
 
+![](https://media.giphy.com/media/d3YH60LyEcJylGuY/giphy.gif)
+
+- works on linux as well as windows
 - send email **with attachments**
 - save contacts
 
@@ -15,6 +18,8 @@ To install cmail, simply,
 ```
 $ pip install bshare
 ```
+
+**Note:** You may need to allow less secure apps on your Gmail account to send email using **bshare**. You can toggle the settings here: [Less secure apps](https://myaccount.google.com/lesssecureapps)
 
 ## Usage
 
