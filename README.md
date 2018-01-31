@@ -7,7 +7,7 @@ A simple command-line email client!
 
 ![](https://media.giphy.com/media/d3YH60LyEcJylGuY/giphy.gif)
 
-- works on **linux** as well as **windows**
+- works on **Linux**, **Winodws** and **MacOS**
 - send email **with attachments**
 - save **contacts**
 
