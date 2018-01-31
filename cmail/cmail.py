@@ -86,7 +86,7 @@ def mailer():
 	subject = input("Subject: ")
 	text = input("Text: ")
 	opt = input("Want to attach any files? (y/n): ")
-	if opt == 'y':
+	if opt.lower() == 'y' or 'yes':
 		files = select_files()
 	else:
 		files = None
