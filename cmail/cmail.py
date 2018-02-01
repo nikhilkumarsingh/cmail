@@ -12,6 +12,7 @@ from email.mime.text import MIMEText
 from email.mime.application import MIMEApplication
 from email.mime.multipart import MIMEMultipart
 
+__version__ = "v.1.0.0"
 
 try:
 	with open(os.path.join(os.path.dirname(__file__), 'contacts.json'), "r") as f:
@@ -109,6 +110,9 @@ def main():
 	parser.add_argument("-r", "--reset", action='store_true',
 						help = "Reset contacts list to default.")
 
+	parser.add_argument("-v", "--version", action='store_true',
+						help = "Get the current version of cmail")
+
 	parser.add_argument("-a", "--add", type = str, nargs = 2,
 						metavar = ("name", "email"), default = None,
 						help = "Add new contact.")
@@ -133,6 +137,9 @@ def main():
 		with open(os.path.join(os.path.dirname(__file__), 'contacts.json'), "w") as f:
 			f.write(json.dumps(contacts))
 		print("New contact saved!")
+
+	elif args.version:
+		print(__version__)
 		
 	elif len(sys.argv) == 1:
 		parser.print_help()
