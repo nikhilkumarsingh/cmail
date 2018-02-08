@@ -25,22 +25,23 @@ $ pip install cmail
 
 - Help command:
 
-	```
-	$ cmail -h
+```
+$ cmail -h
 
-	usage: cmail.py [-h] [-m] [-c] [-r] [-a name email]
+usage: cmail.py [-h] [-m] [-c] [-r] [-v] [-a name email]
 
-	A simple command-line email client!
+A simple command-line email client!
 
-	optional arguments:
-	  -h, --help            show this help message and exit
-	  -m, --mail            Send mail.
-	  -c, --contacts        Shows the saved email contacts.
-	  -r, --reset           Reset contacts list to default.
-	  -a name email, --add name email
-	                        Add new contact.
+optional arguments:
+  -h, --help            show this help message and exit
+  -m, --mail            Send mail.
+  -c, --contacts        Shows the saved email contacts.
+  -r, --reset           Reset contacts list to default.
+  -v, --version         Get the current version of cmail
+  -a name email, --add name email
+                        Add new contact.
 
-	```
+```
 
 - To send mail:
 
